@@ -1,0 +1,12 @@
+Druga verzija završnog rada.
+Napravljen unos i promjena razine, naziva predmeta, podataka o predavačima, dvorana. Brisanje polaznika s predmeta, omogućeno ako polaznik
+nije prijavljen na nekom terminu u bazi, brisanje predmeta omogućeno ako nema nijednog polaznika na tom predmetu.
+
+Problemi koji me još uvijek muče su sljedeći:
+  ->prilikom unosa novog predavača, javlja se greška koja se odnosi na foreign key predmet_id, iako ne unosimo novi predmet 
+  nego biramo postojeći iz baze, iz tablice predmet. Isti problem se pojavljuje na više mjesta, uvijek gdje imam unos vrijednosti koju već
+  imamo u bazi.
+  ->prilikom stvaranja novog predmeta, stvori se predmet u bazi, ali se ne prikažu vrijednosti za razinu i predavača, nego ostanu prazne. 
+  Odabir ta dva pojma je na isti način kao i prilikom unosa novog predavača, te upisa polaznika na neki od postojećih predmeta.
+  ->Upis polaznika na predmet, jer nema prikaza profila polaznika (isto tako i predavača), ako on nije prijavljen na nekom predmetu.
+  Kod svih tih problema zajednička stvar je unos podataka, tj.odabir već postojećih vrijednosti iz baze.
