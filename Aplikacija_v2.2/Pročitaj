@@ -1,0 +1,9 @@
+Konačna verzija završnog rada za web programiranje.
+
+Ispravljeni svi nedostaci, jedino je ostalo za implementirati do kraja tablicu Termini.
+
+Omogućeno:
+  -dodavanje, brisanje, te izmjena podataka predavača, prilikom koje se odrađuje i razine te predmeti na kojima predaju.
+  -dodavanje, brisanje, te izmjena podataka polaznika, te njihovo dodavanje na predmet.
+  -dodavanje, brisanje, te izmjena podataka za predmete, te dodavanje polaznika preko željenog predmeta.
+  -dodavanje novih predmeta i razina obrazovanja, kao i izmjena te brisanje istih.
